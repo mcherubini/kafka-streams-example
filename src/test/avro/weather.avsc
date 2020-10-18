@@ -1,0 +1,21 @@
+{
+  "namespace": "com.mcherubini",
+  "type": "record",
+  "name": "Weather",
+  "doc": "A weather reading.",
+  "fields": [
+    {
+      "name": "station",
+      "type": "string",
+      "order": "ignore"
+    },
+    {
+      "name": "time",
+      "type": "long"
+    },
+    {
+      "name": "temp",
+      "type": "int"
+    }
+  ]
+}
